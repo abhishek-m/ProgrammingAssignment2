@@ -9,8 +9,9 @@
     `cacheSolve` should retrieve the inverse from the cache.
 
 sample execution
-# matrix m is created
->> m=matrix(c(1,2,3,4),2,2)
+
+matrix m created
+> m=matrix(c(1,2,3,4),2,2)
 
 #we create an inverse matrix caching object a and pass matrix m
 > a<-makeCacheMatrix(m)
